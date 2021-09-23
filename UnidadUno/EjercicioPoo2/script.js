@@ -6,12 +6,11 @@ let pala = prompt("ingresa una palabra");
   for(let i=0; i < texto.length; i++) {
     if(texto[i]==texto[menos]){
       cont++;
-      console.log(cont);
+      // console.log(cont);
     }
     menos--;
   }
 
-  // console.log("s");
   // console.log(cont);
   // console.log(menos+1);
   // console.log(texto.length)
